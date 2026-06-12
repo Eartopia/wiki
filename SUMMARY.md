@@ -28,4 +28,5 @@
 ## 지원
 
 - [명령어 모음](support/commands.md)
+- [패널 커서 보정](support/panel-cursor-calibration.md)
 - [문제 해결](support/troubleshooting.md)

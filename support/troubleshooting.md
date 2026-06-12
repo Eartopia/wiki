@@ -23,6 +23,14 @@
 3. `/eartopiamainmenu` 또는 `/emainmenu`로 열어봐요.
 4. 메뉴 화면이 이상하면 리소스팩 상태를 확인해요.
 
+## 패널 커서가 모서리에서 어긋나요
+
+1. `/panels calibrate`로 커서 보정을 시작해요.
+2. 검은 패널에 표시되는 십자가를 화면 중앙 조준점으로 정확히 클릭해요.
+3. 안내되는 순서대로 가운데와 네 모서리를 클릭해요.
+4. 그래도 넓은 패널에서 오차가 남으면 `/panels calibrate 4`로 다시 보정해요.
+5. 보정 후 더 불편해졌다면 `/panels calibrate reset`으로 기본값으로 되돌려요.
+
 ## 지도가 안 열려요
 
 1. [https://map.eartopia.net/](https://map.eartopia.net/)을 다시 열어봐요.
