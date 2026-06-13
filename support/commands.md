@@ -23,6 +23,7 @@
 | `/emainmenu` | 메인 메뉴 명령어 별칭이에요. |
 | `/panels calibrate` | 패널 커서 위치를 내 화면에 맞게 보정해요. |
 | `/panels calibrate 4` | 더 큰 보정 패널로 커서 위치를 보정해요. |
+| `/panels calibrate cancel` | 열려 있는 보정 패널을 닫고 저장된 보정값은 유지해요. |
 | `/panels calibrate reset` | 패널 커서 보정을 기본값으로 되돌려요. |
 
 ## 마을과 지도
