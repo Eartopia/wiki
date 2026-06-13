@@ -21,8 +21,9 @@
 | `/packs` | 리소스팩 명령어 별칭이에요. |
 | `/eartopiamainmenu` | 메인 메뉴를 열어요. |
 | `/emainmenu` | 메인 메뉴 명령어 별칭이에요. |
-| `/panels calibrate` | 패널 커서 위치를 내 화면에 맞게 보정해요. |
-| `/panels calibrate 4` | 더 큰 보정 패널로 커서 위치를 보정해요. |
+| `/panels calibrate` | 4x4 보정 패널에서 빨간 점을 클릭해 패널 커서 위치를 맞춰요. |
+| `/panels calibrate 3` | 작은 3x3 보정 패널로 커서 위치를 보정해요. |
+| `/panels calibrate 4` | 기본 4x4 보정 패널로 커서 위치를 보정해요. |
 | `/panels calibrate cancel` | 열려 있는 보정 패널을 닫고 저장된 보정값은 유지해요. |
 | `/panels calibrate reset` | 패널 커서 보정을 기본값으로 되돌려요. |
 
