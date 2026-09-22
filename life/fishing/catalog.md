@@ -6,7 +6,7 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 
 `/fish index`에서 **내가 발견한 물고기와 남은 도감**을 확인해요. 웹에서는 [낚시 도감](https://www.eartopia.net/wiki/fishing)을 둘러볼 수 있어요.
 
-현재 도감에는 잡동사니를 포함해 **65항목**이 있어요. 아래 그림은 게임 아이템에 쓰이는 원본 이미지예요.
+현재 도감에는 잡동사니를 포함해 **65항목**이 있어요. 아래 그림은 게임 아이템에 쓰이는 원본 이미지예요. 등급 이름도 게임 도감에 표시되는 이름을 그대로 사용했어요.
 
 ## 원하는 물고기가 나오지 않아요
 
@@ -14,14 +14,14 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 
 물 종류는 실제 낚시 지역에 적용되는 규칙을 따라요. 지도에서 강이나 바다처럼 보이는지만으로 판단하기보다 게임 안내와 도감을 함께 확인해 주세요. 도감에 등록되어 있어도 해당 낚시 구역이 열려 있어야 잡을 수 있는 항목이 있어요.
 
-## 잡동사니 · 2항목
+## Junk · 2항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
 | <img src="../../.gitbook/assets/fish/driftwood.png" alt="떠내려온 나무" width="64"> | 떠내려온 나무 | 제한 없음 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/mud_loach.png" alt="미꾸라지" width="64"> | 미꾸라지 | 제한 없음 | 항상 · 모든 날씨 |
 
-## 풍부 · 14항목
+## Abundant · 14항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 | <img src="../../.gitbook/assets/fish/dace.png" alt="황어붙이" width="64"> | 황어붙이 | 제한 없음 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/herring.png" alt="청어" width="64"> | 청어 | 제한 없음 | 항상 · 모든 날씨 |
 
-## 일반 · 15항목
+## Common · 15항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
@@ -60,7 +60,7 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 | <img src="../../.gitbook/assets/fish/mullet.png" alt="숭어" width="64"> | 숭어 | 제한 없음 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/milkfish.png" alt="밀크피시" width="64"> | 밀크피시 | 제한 없음 | 항상 · 모든 날씨 |
 
-## 특이 · 12항목
+## Uncommon · 12항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
@@ -77,7 +77,7 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 | <img src="../../.gitbook/assets/fish/parrotfish.png" alt="비늘돔" width="64"> | 비늘돔 | 제한 없음 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/clownfish.png" alt="흰동가리" width="64"> | 흰동가리 | 제한 없음 | 항상 · 모든 날씨 |
 
-## 은밀 · 9항목
+## Rare · 9항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 | <img src="../../.gitbook/assets/fish/arapaima.png" alt="피라루쿠" width="64"> | 피라루쿠 | 제한 없음 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/blue_marlin.png" alt="청새치" width="64"> | 청새치 | 바닷물·깊은 바다 | 항상 · 모든 날씨 |
 
-## 전설 · 3항목
+## Epic · 3항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
@@ -99,35 +99,35 @@ description: 잡동사니를 포함한 도감 65항목과 낚시 조건을 살�
 | <img src="../../.gitbook/assets/fish/frilled_shark.png" alt="주름상어" width="64"> | 주름상어 | 깊은 바다 | 밤 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/coelacanth.png" alt="실러캔스" width="64"> | 실러캔스 | 깊은 바다 | 항상 · 모든 날씨 |
 
-## 신화 · 2항목
+## Legendary · 2항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
 | <img src="../../.gitbook/assets/fish/abyss_tuna.png" alt="심연 참치" width="64"> | 심연 참치 | 깊은 바다 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/oarfish.png" alt="산갈치" width="64"> | 산갈치 | 깊은 바다 | 항상 · 비·눈 |
 
-## 유물 · 2항목
+## Mythic · 2항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
 | <img src="../../.gitbook/assets/fish/ancient_scale.png" alt="고대 비늘" width="64"> | 고대 비늘 | 유적 | 항상 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/fossil_gar.png" alt="화석 가아" width="64"> | 화석 가아 | 유적 | 항상 · 모든 날씨 |
 
-## 이국 · 2항목
+## Ancient · 2항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
 | <img src="../../.gitbook/assets/fish/aurora_ray.png" alt="오로라 가오리" width="64"> | 오로라 가오리 | 차가운 물·깊은 바다 | 항상 · 맑음 |
 | <img src="../../.gitbook/assets/fish/glacier_manta.png" alt="빙하 만타" width="64"> | 빙하 만타 | 차가운 물·깊은 바다 | 항상 · 맑음 |
 
-## 시크릿 · 2항목
+## Secret · 2항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |
 | <img src="../../.gitbook/assets/fish/voidfin.png" alt="공허지느러미" width="64"> | 공허지느러미 | 유적·깊은 바다 | 밤 · 모든 날씨 |
 | <img src="../../.gitbook/assets/fish/moonveil_angler.png" alt="달장막 아귀" width="64"> | 달장막 아귀 | 유적·깊은 바다 | 밤 · 모든 날씨 |
 
-## 울트라 시크릿 · 2항목
+## Apex · 2항목
 
 | 모습 | 이름 | 물 종류 | 시간 · 날씨 |
 | --- | --- | --- | --- |

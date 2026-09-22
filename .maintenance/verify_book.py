@@ -2,6 +2,7 @@
 """Validate the public GitBook and its source-backed asset/catalog snapshot."""
 
 import argparse
+from collections import Counter
 import hashlib
 from html.parser import HTMLParser
 import json
@@ -130,9 +131,28 @@ def verify(root):
         errors.append("Fish catalog entries differ from the recorded live catalog")
     if f"**{len(expected_fish)}항목**" not in fish_text:
         errors.append("Fish total is inconsistent")
+    water_labels = {"any": "제한 없음", "freshwater": "민물", "saltwater": "바닷물",
+                    "cold": "차가운 물", "warm": "따뜻한 물", "deep_ocean": "깊은 바다", "ruins": "유적"}
+    time_labels = {"any": "항상", "night": "밤", "day": "낮"}
+    weather_labels = {"any": "모든 날씨", "clear": "맑음", "storm": "비·눈", "rain": "비·눈"}
+    rarity_counts = Counter(fish["rarity"] for fish in catalog["fish"])
+    fish_rows = {}
+    heading = ""
+    for line in fish_text.splitlines():
+        if line.startswith("## "):
+            heading = line
+        match = re.search(r'assets/fish/([^/"\s]+)\.png', line)
+        if match:
+            fish_rows[match.group(1)] = (heading, [cell.strip() for cell in line.split("|")])
     for fish in catalog["fish"]:
-        if f"| {fish['name']} |" not in fish_text:
-            errors.append(f"Missing localized fish name: {fish['id']}")
+        water = "제한 없음" if "any" in fish["water_types"] else "·".join(water_labels[value] for value in fish["water_types"])
+        conditions = f"{time_labels[fish['time']]} · {weather_labels[fish['weather']]}"
+        expected_heading = f"## {catalog['rarity_names'][fish['rarity']]} · {rarity_counts[fish['rarity']]}항목"
+        actual_heading, cells = fish_rows.get(fish["id"], ("", []))
+        if actual_heading != expected_heading:
+            errors.append(f"Fish rarity label/group/count mismatch: {fish['id']}")
+        if len(cells) != 6 or cells[2:5] != [fish["name"], water, conditions]:
+            errors.append(f"Fish name/water/time/weather mismatch: {fish['id']}")
     crop_text = texts.get("life/farming/crops.md", "")
     for crop in catalog["crops"]:
         hours, minutes = divmod(crop["growth_seconds"] // 60, 60)

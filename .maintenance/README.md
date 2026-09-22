@@ -2,7 +2,8 @@
 
 Run `python3 .maintenance/verify_book.py` from this repository before syncing.
 It checks navigation completeness, local links, image integrity and alt text,
-hint blocks, excluded commands, and fish/crop tables against the recorded snapshot.
+hint blocks, excluded commands, and fish/crop tables against the recorded snapshot
+(including fish rarity labels, water/time/weather conditions and crop yields).
 It does not certify gameplay, external URLs, live permissions or GitBook rendering.
 
 - `sources.json` records the reviewed source paths/hashes, selected live configuration hashes, public catalog data and editorial limits as of 2026-09-22. Source paths are relative to the Eartopia coordination workspace; live paths are relative to the active server's plugins directory.

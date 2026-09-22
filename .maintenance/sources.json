@@ -127,7 +127,8 @@
       ],
       "notes": [
         "Command-based market creation immediately escrows items; it is not a confirmation preview.",
-        "Pioneer reputation and national research points have different scopes."
+        "Pioneer reputation and national research points have different scopes.",
+        "Charter town upkeep relief starts on town creation. Nation creation starts nation relief and refreshes capital-town relief; current duration is 14 days. Town creation reservation lasts 2 minutes."
       ],
       "sources": [
         {
@@ -178,7 +179,8 @@
       "notes": [
         "65 enabled catalog entries include two trash-tier entries, not 65 biological fish species.",
         "Catalog conditions do not guarantee an accessible active zone. any overrides other water types.",
-        "sell hand/all bypass the selection dialog and sell immediately."
+        "sell hand/all bypass the selection dialog and sell immediately.",
+        "Rarity headings use the current live Korean catalog labels (Junk through Apex), not literal translations of internal rarity IDs."
       ],
       "sources": [
         {
@@ -481,6 +483,10 @@
     {
       "path": "EartopiaMainMenu/config.yml",
       "sha256": "4550348b61428c428ded9e2204b22efdea3e4c345cb8df83a5111caa8e4c7625"
+    },
+    {
+      "path": "EartopiaFishing/messages/ko_KR.yml",
+      "sha256": "d260f9482d2d323a4e00f6edffe18201f905b3ad92fa041bb51abb39f0a36a6c"
     }
   ],
   "catalog_snapshot": {
@@ -1405,7 +1411,20 @@
         "drop_min": 2,
         "drop_max": 4
       }
-    ]
+    ],
+    "rarity_names": {
+      "trash": "Junk",
+      "abundant": "Abundant",
+      "common": "Common",
+      "curious": "Uncommon",
+      "elusive": "Rare",
+      "fabled": "Epic",
+      "mythic": "Legendary",
+      "relic": "Mythic",
+      "exotic": "Ancient",
+      "secret": "Secret",
+      "ultimate_secret": "Apex"
+    }
   },
   "editorial_decisions": [
     "Only Korean public player documentation was changed. No live game mutations or new native-client playtests.",
