@@ -1,0 +1,1416 @@
+{
+  "verified_on": "2026-09-22",
+  "source_base": "Eartopia coordination workspace",
+  "runtime_base": "active server plugins directory",
+  "groups": {
+    "start": {
+      "pages": [
+        "info/new-player.md",
+        "start/join.md",
+        "start/main-menu.md",
+        "start/resource-packs.md",
+        "start/language.md",
+        "start/settings.md"
+      ],
+      "notes": [
+        "Resource pack update is public; list/status/gui require operator permissions.",
+        "Connection hostname was not guessed; the official Discord invite is taken from the homepage."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaTutorial/src/main/java/com/astatine/eartopia/tutorial/TutorialListener.java",
+          "sha256": "f71e2a9c690645ee22d4c2be79bed2e42c9d58b5f2f0b0b30327e1b6b6cba351"
+        },
+        {
+          "path": "EartopiaTutorial/src/main/resources/config.yml",
+          "sha256": "5719677efa68e2993e3e7e57a7325567312852fc4fa4ad058b343d761133c6af"
+        },
+        {
+          "path": "EartopiaTutorial/src/main/resources/messages/ko_KR.yml",
+          "sha256": "532d685cf8a5b828e3c54706e2d09a2919410039ab7f9bd04b9b6fd5c75989f5"
+        },
+        {
+          "path": "EartopiaMainMenu/src/main/java/com/astatine/eartopia/mainmenu/MainMenuController.java",
+          "sha256": "2a69e554d0a12ecf76787026a7ae59f4135a0f35f8dc192c8cb00792a28efc45"
+        },
+        {
+          "path": "EartopiaMainMenu/src/main/resources/plugin.yml",
+          "sha256": "0150dc8ee185d9d0457ff1ef4884b49ea9d05655693edcdcd74f847765c29be0"
+        },
+        {
+          "path": "EartopiaMainMenu/src/main/resources/config.yml",
+          "sha256": "c53bf7623f78fc686e2e8c17e1fd044250cde4b2c54cc367a77092daa58797a6"
+        },
+        {
+          "path": "EartopiaResourcePacks/src/main/java/com/astatine/eartopia/resourcepacks/ResourcePackCommand.java",
+          "sha256": "4da5d0d93bf4a5fc0fc809d35b3f5405f518533efce0b8293ef7fbdb8e341c68"
+        },
+        {
+          "path": "EartopiaResourcePacks/src/main/resources/plugin.yml",
+          "sha256": "8488d4e89a68633b7d6441b7e0622cf9c2411ada9ff928e273174e763354cfe4"
+        },
+        {
+          "path": "EartopiaI18n/src/main/resources/plugin.yml",
+          "sha256": "7e6ae1b94c3d083d92199da871111c21100c6b5f5245800bc2aba13c50498c2d"
+        }
+      ]
+    },
+    "town": {
+      "pages": [
+        "systems/spawn.md",
+        "systems/map.md",
+        "systems/towny.md",
+        "systems/towny/creation.md",
+        "systems/towny/land.md",
+        "systems/towny/residents.md",
+        "systems/towny/bank.md",
+        "systems/towny/nations.md"
+      ],
+      "notes": [
+        "Town and nation amounts are live base values, explicitly dated and subject to modifiers.",
+        "First transfer from spawn to Earth was not established; no invented teleport command or warp name."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaWorldGuard/src/main/resources/plugin.yml",
+          "sha256": "c4f47b09d5de8f6a9a94d9d174f9a677ac088fd82a63d500ededf246ed955a03"
+        },
+        {
+          "path": "EartopiaWorldGuard/src/main/resources/config.yml",
+          "sha256": "f0d6c82af8a53aa2fa9d3f047303e2f8fcddebed42c6189142241aa7546cfca0"
+        },
+        {
+          "path": "EartopiaNPC/src/main/resources/messages/ko_KR.yml",
+          "sha256": "1a6446446d6138a116367cf94b5118c90fa02e82cd68d8d3ae649d97d0fc0d9f"
+        },
+        {
+          "path": "Towny/Towny/src/main/java/com/palmergames/bukkit/towny/command/TownCommand.java",
+          "sha256": "a3b777b8b0569c6b85c81da04c1c9941cbd051fc5b84bdf2517377a2ef0ec6f0"
+        },
+        {
+          "path": "Towny/Towny/src/main/java/com/palmergames/bukkit/towny/command/NationCommand.java",
+          "sha256": "5e7072e8df23675300b5696ccbcf47b8aac7e17a87eb7acfdc1f18e44735d324"
+        },
+        {
+          "path": "Towny/Towny/src/main/java/com/palmergames/bukkit/towny/permissions/TownyPermissionSource.java",
+          "sha256": "ed8d6f136df8ce2de54ee25619a2c3109a6510a91fe56ddaea00d8f1f6faa9bb"
+        }
+      ]
+    },
+    "skills": {
+      "pages": [
+        "systems/skills.md"
+      ],
+      "sources": [
+        {
+          "path": "EartopiaSkills/src/main/resources/plugin.yml",
+          "sha256": "8b647a39366452419c3d46fdd650655d08461ab54c519a28020f1bc52cc1a8a6"
+        },
+        {
+          "path": "EartopiaSkills/src/main/resources/config.yml",
+          "sha256": "ea8f288d787ad38b6a03de8b8f82df50c426f13e0de8f8ce4763f828341207c6"
+        },
+        {
+          "path": "EartopiaSkills/src/main/resources/messages/ko_KR.yml",
+          "sha256": "b672575ff1737e1358e6d83f7e26a95b07d2488e7b6266d8eda1bc04c5989039"
+        }
+      ]
+    },
+    "trade": {
+      "pages": [
+        "systems/trade.md",
+        "systems/trade/specialties.md",
+        "systems/trade/processing.md",
+        "systems/trade/contracts-research.md",
+        "systems/trade/market.md",
+        "systems/trade/founding.md"
+      ],
+      "notes": [
+        "Command-based market creation immediately escrows items; it is not a confirmation preview.",
+        "Pioneer reputation and national research points have different scopes."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaTrade/src/main/java/com/astatine/eartopia/trade/TradeCommand.java",
+          "sha256": "794378c1487bd418f760f42f72b5df8e68f79065e864c298256fef21be53ea44"
+        },
+        {
+          "path": "EartopiaTrade/src/main/java/com/astatine/eartopia/trade/market/MarketPolicy.java",
+          "sha256": "9312ec36222061543a88d9c756aaf2488b12dcf006659e2f9bae8cb784065ec6"
+        },
+        {
+          "path": "EartopiaTrade/src/main/java/com/astatine/eartopia/trade/market/MarketService.java",
+          "sha256": "3ee0f4101bca35694284af8f6ffe113b9c665650bab7ef26930cad4899dd035b"
+        },
+        {
+          "path": "EartopiaTrade/src/main/java/com/astatine/eartopia/trade/founding/FoundingService.java",
+          "sha256": "ba7e617ed7a0759db1744c6f00112c9c6147e13f843f80e58539926db7a9699b"
+        },
+        {
+          "path": "EartopiaTrade/src/main/java/com/astatine/eartopia/trade/founding/FoundingReadinessPolicy.java",
+          "sha256": "9e4852a04192611729cc3aa0d79af80cec1a86f4fa55531c425b245ecf9d7946"
+        },
+        {
+          "path": "EartopiaTrade/src/main/java/com/astatine/eartopia/trade/contracts/DailyContractGenerator.java",
+          "sha256": "983ebf67005fc5150bc665a96a08ae38c8f3f9d55806e4e2d39f9f722d55da99"
+        },
+        {
+          "path": "EartopiaTrade/src/main/resources/trade-catalog.tsv",
+          "sha256": "f83380d4b10fe97fdf6f213788bc0adf93b3fb4a1dbef204eeb4ff7206886102"
+        },
+        {
+          "path": "EartopiaTrade/src/main/resources/config.yml",
+          "sha256": "7ba76a57af7a042652f4b6c6932475fee52095e9cf3ad13a634e013aadacf3cc"
+        },
+        {
+          "path": "EartopiaTrade/src/main/resources/messages/ko_KR.yml",
+          "sha256": "be2e2d5493ae5f5339dba27dd74f8664b2092ba34dcd6ea5714a7e6a5ac5eae6"
+        }
+      ]
+    },
+    "fishing": {
+      "pages": [
+        "life/fishing.md",
+        "life/fishing/equipment.md",
+        "life/fishing/catalog.md",
+        "life/fishing/selling.md"
+      ],
+      "notes": [
+        "65 enabled catalog entries include two trash-tier entries, not 65 biological fish species.",
+        "Catalog conditions do not guarantee an accessible active zone. any overrides other water types.",
+        "sell hand/all bypass the selection dialog and sell immediately."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaFishing/src/main/java/com/astatine/eartopia/fishing/FishCommand.java",
+          "sha256": "01e446145bd2c8e78f63b8634431f6f60ab7fd6240ff73e932f77505e9e37a06"
+        },
+        {
+          "path": "EartopiaFishing/src/main/java/com/astatine/eartopia/fishing/FishDefinition.java",
+          "sha256": "56601138f9375848477b1ad7e8fe2746c0136115f57ff37f936614981fea933d"
+        },
+        {
+          "path": "EartopiaFishing/src/main/java/com/astatine/eartopia/fishing/FishSaleDialog.java",
+          "sha256": "25536f27baf0c01cb588a33a3700d5484bb9c9861996e1d7d272234d480654e7"
+        },
+        {
+          "path": "EartopiaFishing/src/qa/resources/plugin.yml",
+          "sha256": "d90b9b81ff63dab16527b2aaefc0775591e6acd6845f71c2bd0eed0e03f9f847"
+        },
+        {
+          "path": "EartopiaFishing/src/main/resources/plugin.yml",
+          "sha256": "3fd4be90806504c9e37ad84f4ef391472e1813de103126e3811027a626ee2f85"
+        },
+        {
+          "path": "EartopiaFishing/src/main/resources/config.yml",
+          "sha256": "e9a953db8bdafb786e6da20a3f177d8725bb62a0a01b0d8bfee83ca62a6861ab"
+        },
+        {
+          "path": "EartopiaFishing/src/main/resources/messages/ko_KR.yml",
+          "sha256": "895557cf9f7ddc3f290cc0e793f3a190187e9dc760503f339117f950080b1959"
+        }
+      ]
+    },
+    "farming": {
+      "pages": [
+        "life/farming.md",
+        "life/farming/crops.md"
+      ],
+      "notes": [
+        "Five base crops plus eighteen enabled custom crops. No player farming admin command."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaFarming/src/main/java/com/astatine/eartopia/farming/FarmingCommand.java",
+          "sha256": "3d24dd4da2b2dbccaa4c172ab9e173b7c8a0d7092b78abda279f0318973373d9"
+        },
+        {
+          "path": "EartopiaFarming/src/main/java/com/astatine/eartopia/farming/FarmingRootCommand.java",
+          "sha256": "c221fd0c3b807f523a8411d25689571f6025c4812861c5a321d3519d33be92ff"
+        },
+        {
+          "path": "EartopiaFarming/src/main/resources/config.yml",
+          "sha256": "c0492b1a000aa30971d541cd658cce59f93d53552c40ccb1d0a7b070e207ec2d"
+        },
+        {
+          "path": "EartopiaFarming/src/main/resources/messages/ko_KR.yml",
+          "sha256": "a68ca8bfb307c504eafda84804fafa6d1471a927f25798bf764a8b52096195e9"
+        }
+      ]
+    },
+    "cooking": {
+      "pages": [
+        "life/cooking.md"
+      ],
+      "notes": [
+        "Enabled recipes are not necessarily learned recipes. Workstation and discovery gates apply."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaCooking/src/main/java/com/astatine/eartopia/cooking/CookingRecipeBook.java",
+          "sha256": "d593e47c611e652a5674b73d9e24e3c3296dfd76b1ff35a9e853987a9fe1e855"
+        },
+        {
+          "path": "EartopiaCooking/src/main/java/com/astatine/eartopia/cooking/CookingCommand.java",
+          "sha256": "3224fc3840ec78fe2077b425d3132a61e20534653fce8089912684b013605042"
+        },
+        {
+          "path": "EartopiaCooking/src/main/resources/config.yml",
+          "sha256": "772a3f62645e688b8759c3b33e34b457e8cf0ca2e46eba42912975ed89474ea9"
+        },
+        {
+          "path": "EartopiaCooking/src/main/resources/messages/ko_KR.yml",
+          "sha256": "9f27a24e532c29f796b822d8e32f14133b88e13acb4c09421679fd80071bcaf4"
+        }
+      ]
+    },
+    "wildlife": {
+      "pages": [
+        "life/wildlife.md"
+      ],
+      "sources": [
+        {
+          "path": "EartopiaWildlife/src/main/resources/plugin.yml",
+          "sha256": "292d2c00343aaad38d81f486660f0ea30d5cf4a02628f9182888cae0d8cafac1"
+        },
+        {
+          "path": "EartopiaWildlife/src/main/resources/config.yml",
+          "sha256": "ba38f3d3bf44f98bb1e500c0eec00373991a42f4cc53740d1f7a1661a35f1035"
+        },
+        {
+          "path": "EartopiaWildlife/src/main/resources/messages/ko_KR.yml",
+          "sha256": "a389650dbb116dd7532d76575dff19d6a927ddcc54c9ece46598623e3e1e9a6b"
+        }
+      ]
+    },
+    "social": {
+      "pages": [
+        "social/friends.md",
+        "social/postcards.md"
+      ],
+      "notes": [
+        "Friendship points and levels are documented without promising unimplemented level perks."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaFriends/src/main/java/com/astatine/eartopia/friends/FriendsCommand.java",
+          "sha256": "af4cca88f2723e8ef33d9ad199c19aa8c368f92f705488119d7a53ecc17b80f2"
+        },
+        {
+          "path": "EartopiaFriends/src/main/resources/plugin.yml",
+          "sha256": "b62456c44cf94488cc9265625894a1a79304f487c19bd88974019b804c312dc2"
+        },
+        {
+          "path": "EartopiaFriends/src/main/resources/config.yml",
+          "sha256": "cb1471b7787665015402f998af5ab77023eb965f0d8e60c3dc6751ccf02eeba0"
+        },
+        {
+          "path": "EartopiaFriends/src/main/resources/messages/ko_KR.yml",
+          "sha256": "37d0627452ae34c975efc5a00692461920ea1d71a12df1e6bb64bd31c7628bc5"
+        }
+      ]
+    },
+    "creative": {
+      "pages": [
+        "life/camera.md",
+        "life/instruments.md",
+        "life/cosmetics.md",
+        "life/art.md",
+        "life/transport.md"
+      ],
+      "notes": [
+        "ArtMap artist permission is operator-default; availability depends on configured player grants.",
+        "Wardrobe, item skins, particles and trails are separate player surfaces.",
+        "Record extraction needs a dedicated blank record, not a vanilla music disc."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaCamera/src/main/java/com/astatine/eartopia/camera/CameraCommand.java",
+          "sha256": "5868f1dba133744f3df43ab1be03cfa780ffbd1c2833aa500157e61adffb2678"
+        },
+        {
+          "path": "EartopiaCamera/src/main/java/com/astatine/eartopia/camera/CaptureCoordinator.java",
+          "sha256": "8666190463765ee6f5234ef066021b5191d9f4ca8f93eff24327658789c8e5c3"
+        },
+        {
+          "path": "EartopiaCamera/src/main/java/com/astatine/eartopia/camera/TripodService.java",
+          "sha256": "aa5fce98fa310d32d010fe262829e76a3b064dfeb493f058b9a9473785888f70"
+        },
+        {
+          "path": "EartopiaCamera/src/main/resources/plugin.yml",
+          "sha256": "2110a1a247906fe90b9f5be4b492809b4fee934764b50dc329af390bcc4cb7c7"
+        },
+        {
+          "path": "EartopiaCamera/src/main/resources/config.yml",
+          "sha256": "33506aada4f3a249620509eac3fe149154365b928b2384ad42e24aa2d10f649f"
+        },
+        {
+          "path": "EartopiaInstruments/src/main/java/com/astatine/eartopia/instruments/InstrumentCommand.java",
+          "sha256": "932b2ddfc242d17579cc122958e5fa172182273d9ff2e98c3b2c5785fcefe579"
+        },
+        {
+          "path": "EartopiaInstruments/src/main/resources/plugin.yml",
+          "sha256": "1195d772a19f8e3ac112a0ddcc9b431dd091dcd2136c68f571298c3f4ec4b60c"
+        },
+        {
+          "path": "EartopiaInstruments/src/main/resources/messages/ko_KR.yml",
+          "sha256": "1f5a04caea09288d17ae1927a4ad763daaabad552fb6b306c1fe111298456efe"
+        },
+        {
+          "path": "EartopiaCosmetics/src/main/resources/plugin.yml",
+          "sha256": "0da524df72d5b9183c98e1905ac0881204e56de05952a4bad4068b1d05ed1ce5"
+        },
+        {
+          "path": "EartopiaCosmetics/src/main/resources/messages/ko_KR.yml",
+          "sha256": "09cc9c21b11bcc77155e20ee7550676b179cf1b00c7e7fc5f10572f2e2660e5a"
+        },
+        {
+          "path": "ArtMap/plugin/src/main/java/me/Fupery/ArtMap/Command/CommandSave.java",
+          "sha256": "85317e63579bcee6c89abdfc549b89cf5ee0267cc98c59f867814a32d1d1fc07"
+        },
+        {
+          "path": "ArtMap/plugin/src/main/java/me/Fupery/ArtMap/Command/CommandPreview.java",
+          "sha256": "1cd99687a78303f2dbb454a032e9c98921e61280504bdad567aa00e9993b89a6"
+        },
+        {
+          "path": "ArtMap/plugin/src/main/java/me/Fupery/ArtMap/Command/Search.java",
+          "sha256": "7ef2ad081ad83a5453ffe30f48b7d32c9e665fd962f4195a017ceea6b0206714"
+        },
+        {
+          "path": "ArtMap/plugin/src/main/resources/plugin.yml",
+          "sha256": "690ec5a5d5aab658c8ec55d97ff2fe8fc783849037bca904278fc5eb34265d89"
+        },
+        {
+          "path": "ArtMap/plugin/src/main/resources/messages/ko_KR.yml",
+          "sha256": "240e42711e8fc20824507d217b9fca120bbede91a539f214fc30b3ef11b800da"
+        },
+        {
+          "path": "EartopiaTransport/src/main/resources/plugin.yml",
+          "sha256": "715c210522f9ee6c8bcc7caec27df1696cadf83dc3b237269cfd236484ba1062"
+        },
+        {
+          "path": "EartopiaTransport/src/main/resources/messages/ko_KR.yml",
+          "sha256": "fb58502b29d93981e5c7bedad522436b3bdbbf42f53d52fdd93940f51e5a09bc"
+        }
+      ]
+    },
+    "website": {
+      "pages": [
+        "support/website.md",
+        "info/rules.md"
+      ],
+      "notes": [
+        "Website login requires the online Minecraft nickname and an in-game verification code; no invented login command.",
+        "The album and skin pages have authentication gates."
+      ],
+      "sources": [
+        {
+          "path": "EartopiaHomepage/src/App.tsx",
+          "sha256": "df51fc489e8007807df9722434740941968bdf0a0b800f43802b143909e26b8d"
+        },
+        {
+          "path": "EartopiaHomepage/src/components/EartopiaHome.tsx",
+          "sha256": "08fc8e0a3fc5dd42e2eb324b8fb2e0f0a194cc5d8c15c9025adddd45088964fc"
+        }
+      ]
+    },
+    "support": {
+      "pages": [
+        "support/commands.md",
+        "support/faq.md",
+        "support/troubleshooting.md",
+        "support/panel-cursor-calibration.md"
+      ],
+      "sources": [
+        {
+          "path": "EartopiaPanels/src/main/resources/plugin.yml",
+          "sha256": "a1fdd84407ea78f6b8f005dcd1e6eb15721e369cc26fa6e3cabdf95193246566"
+        },
+        {
+          "path": "EartopiaPanels/src/main/resources/messages/ko_KR.yml",
+          "sha256": "d921a6d8038cd7db7758bfa381793f124423d66f5013c0bd798b12b8ffd20a47"
+        }
+      ]
+    }
+  },
+  "live_file_hashes": [
+    {
+      "path": "EartopiaFishing/fish_catalog.yml",
+      "sha256": "30bc95838a98c86b03618c94d6d1e89f3876e165a3ed9986fbdc26b049aeafe2"
+    },
+    {
+      "path": "EartopiaFishing/zones.yml",
+      "sha256": "c7726cb0ea9c6b950990cc393abcd777e9b3edfbfea129e6d37296b5d4e7ea7c"
+    },
+    {
+      "path": "EartopiaFishing/gear.yml",
+      "sha256": "69e754adba158df031a1ee8af66bee21fe1b68a1fa4613337e0ada6e8bc8f69e"
+    },
+    {
+      "path": "EartopiaFishing/config.yml",
+      "sha256": "9dbd507b6a02ade39dc85ed04ae21e289864ef597a4cf59c2870400ea26d749c"
+    },
+    {
+      "path": "EartopiaFarming/config.yml",
+      "sha256": "c0492b1a000aa30971d541cd658cce59f93d53552c40ccb1d0a7b070e207ec2d"
+    },
+    {
+      "path": "EartopiaCooking/recipes.yml",
+      "sha256": "0ae85b283ff9bc75015767ce396ca2432a744a5e7c096e63499b8da198784901"
+    },
+    {
+      "path": "EartopiaCooking/config.yml",
+      "sha256": "a9f005304ac80f8de4b0bbe57048e8eaa171065af07612b95f119b29c58b22e9"
+    },
+    {
+      "path": "EartopiaTrade/config.yml",
+      "sha256": "7ba76a57af7a042652f4b6c6932475fee52095e9cf3ad13a634e013aadacf3cc"
+    },
+    {
+      "path": "Towny/settings/config.yml",
+      "sha256": "6665f32760798f2a10d0b3ad9c26eee93e66ccc825c2d94f9fdc750fcfcac0dd"
+    },
+    {
+      "path": "EartopiaCamera/config.yml",
+      "sha256": "7c0d85acfcad8d5271b9139bc352524a351a11071e4ecd9a2cb974e179952ca1"
+    },
+    {
+      "path": "EartopiaWildlife/config.yml",
+      "sha256": "ba38f3d3bf44f98bb1e500c0eec00373991a42f4cc53740d1f7a1661a35f1035"
+    },
+    {
+      "path": "EartopiaMainMenu/config.yml",
+      "sha256": "4550348b61428c428ded9e2204b22efdea3e4c345cb8df83a5111caa8e4c7625"
+    }
+  ],
+  "catalog_snapshot": {
+    "fish": [
+      {
+        "id": "driftwood",
+        "name": "떠내려온 나무",
+        "rarity": "trash",
+        "water_types": [
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "mud_loach",
+        "name": "미꾸라지",
+        "rarity": "trash",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "minnow",
+        "name": "피라미",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "anchovy",
+        "name": "멸치",
+        "rarity": "abundant",
+        "water_types": [
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "sardine",
+        "name": "정어리",
+        "rarity": "abundant",
+        "water_types": [
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "pond_smelt",
+        "name": "빙어",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "shiner",
+        "name": "샤이너",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "goby",
+        "name": "망둑어",
+        "rarity": "abundant",
+        "water_types": [
+          "saltwater",
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "bluegill",
+        "name": "블루길",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "tilapia",
+        "name": "틸라피아",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "pumpkinseed",
+        "name": "펌킨시드",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "white_perch",
+        "name": "화이트 퍼치",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "yellow_perch",
+        "name": "옐로 퍼치",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "roach",
+        "name": "로치",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "dace",
+        "name": "황어붙이",
+        "rarity": "abundant",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "herring",
+        "name": "청어",
+        "rarity": "abundant",
+        "water_types": [
+          "saltwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "carp",
+        "name": "잉어",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "rainbow_trout",
+        "name": "무지개송어",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "brown_trout",
+        "name": "브라운 송어",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "brook_trout",
+        "name": "브룩 송어",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "largemouth_bass",
+        "name": "큰입배스",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "smallmouth_bass",
+        "name": "작은입배스",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "channel_catfish",
+        "name": "채널메기",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "walleye",
+        "name": "월아이",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "mackerel",
+        "name": "고등어",
+        "rarity": "common",
+        "water_types": [
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "cod",
+        "name": "대구",
+        "rarity": "common",
+        "water_types": [
+          "saltwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "haddock",
+        "name": "해덕",
+        "rarity": "common",
+        "water_types": [
+          "saltwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "flounder",
+        "name": "가자미",
+        "rarity": "common",
+        "water_types": [
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "black_crappie",
+        "name": "블랙 크래피",
+        "rarity": "common",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "mullet",
+        "name": "숭어",
+        "rarity": "common",
+        "water_types": [
+          "saltwater",
+          "freshwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "milkfish",
+        "name": "밀크피시",
+        "rarity": "common",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "sea_bream",
+        "name": "참돔",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "northern_pike",
+        "name": "노던파이크",
+        "rarity": "curious",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "european_eel",
+        "name": "유럽뱀장어",
+        "rarity": "curious",
+        "water_types": [
+          "freshwater",
+          "saltwater",
+          "any"
+        ],
+        "time": "night",
+        "weather": "any"
+      },
+      {
+        "id": "sockeye_salmon",
+        "name": "홍연어",
+        "rarity": "curious",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "coho_salmon",
+        "name": "은연어",
+        "rarity": "curious",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "halibut",
+        "name": "넙치",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "cold",
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "red_snapper",
+        "name": "붉돔",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "yellowtail",
+        "name": "방어",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "grouper",
+        "name": "그루퍼",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "mahi_mahi",
+        "name": "만새기",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "parrotfish",
+        "name": "비늘돔",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "clownfish",
+        "name": "흰동가리",
+        "rarity": "curious",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "pufferfish",
+        "name": "복어",
+        "rarity": "elusive",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "sturgeon",
+        "name": "철갑상어",
+        "rarity": "elusive",
+        "water_types": [
+          "freshwater",
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "king_salmon",
+        "name": "왕연어",
+        "rarity": "elusive",
+        "water_types": [
+          "freshwater",
+          "cold",
+          "saltwater",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "barracuda",
+        "name": "바라쿠다",
+        "rarity": "elusive",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "giant_trevally",
+        "name": "무명갈전갱이",
+        "rarity": "elusive",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "lionfish",
+        "name": "쏠배감펭",
+        "rarity": "elusive",
+        "water_types": [
+          "saltwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "monkfish",
+        "name": "아귀",
+        "rarity": "elusive",
+        "water_types": [
+          "saltwater",
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "arapaima",
+        "name": "피라루쿠",
+        "rarity": "elusive",
+        "water_types": [
+          "freshwater",
+          "warm",
+          "any"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "blue_marlin",
+        "name": "청새치",
+        "rarity": "elusive",
+        "water_types": [
+          "saltwater",
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "starlit_koi",
+        "name": "별빛 비단잉어",
+        "rarity": "fabled",
+        "water_types": [
+          "freshwater",
+          "any"
+        ],
+        "time": "night",
+        "weather": "any"
+      },
+      {
+        "id": "frilled_shark",
+        "name": "주름상어",
+        "rarity": "fabled",
+        "water_types": [
+          "deep_ocean"
+        ],
+        "time": "night",
+        "weather": "any"
+      },
+      {
+        "id": "coelacanth",
+        "name": "실러캔스",
+        "rarity": "fabled",
+        "water_types": [
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "abyss_tuna",
+        "name": "심연 참치",
+        "rarity": "mythic",
+        "water_types": [
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "oarfish",
+        "name": "산갈치",
+        "rarity": "mythic",
+        "water_types": [
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "storm"
+      },
+      {
+        "id": "ancient_scale",
+        "name": "고대 비늘",
+        "rarity": "relic",
+        "water_types": [
+          "ruins"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "fossil_gar",
+        "name": "화석 가아",
+        "rarity": "relic",
+        "water_types": [
+          "ruins"
+        ],
+        "time": "any",
+        "weather": "any"
+      },
+      {
+        "id": "aurora_ray",
+        "name": "오로라 가오리",
+        "rarity": "exotic",
+        "water_types": [
+          "cold",
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "clear"
+      },
+      {
+        "id": "glacier_manta",
+        "name": "빙하 만타",
+        "rarity": "exotic",
+        "water_types": [
+          "cold",
+          "deep_ocean"
+        ],
+        "time": "any",
+        "weather": "clear"
+      },
+      {
+        "id": "voidfin",
+        "name": "공허지느러미",
+        "rarity": "secret",
+        "water_types": [
+          "ruins",
+          "deep_ocean"
+        ],
+        "time": "night",
+        "weather": "any"
+      },
+      {
+        "id": "moonveil_angler",
+        "name": "달장막 아귀",
+        "rarity": "secret",
+        "water_types": [
+          "ruins",
+          "deep_ocean"
+        ],
+        "time": "night",
+        "weather": "any"
+      },
+      {
+        "id": "sunken_crownfish",
+        "name": "가라앉은 왕관고기",
+        "rarity": "ultimate_secret",
+        "water_types": [
+          "ruins",
+          "deep_ocean"
+        ],
+        "time": "night",
+        "weather": "storm"
+      },
+      {
+        "id": "star_eater_leviathan",
+        "name": "별을 삼키는 레비아탄",
+        "rarity": "ultimate_secret",
+        "water_types": [
+          "ruins",
+          "deep_ocean"
+        ],
+        "time": "night",
+        "weather": "storm"
+      }
+    ],
+    "crops": [
+      {
+        "id": "WHEAT",
+        "kind": "base",
+        "name": "밀",
+        "growth_seconds": 3600
+      },
+      {
+        "id": "CARROTS",
+        "kind": "base",
+        "name": "당근",
+        "growth_seconds": 7200
+      },
+      {
+        "id": "POTATOES",
+        "kind": "base",
+        "name": "감자",
+        "growth_seconds": 7200
+      },
+      {
+        "id": "BEETROOTS",
+        "kind": "base",
+        "name": "비트",
+        "growth_seconds": 7200
+      },
+      {
+        "id": "NETHER_WART",
+        "kind": "base",
+        "name": "네더 와트",
+        "growth_seconds": 14400
+      },
+      {
+        "id": "tomato",
+        "kind": "custom",
+        "name": "토마토",
+        "growth_seconds": 5400,
+        "drop_min": 2,
+        "drop_max": 4
+      },
+      {
+        "id": "corn",
+        "kind": "custom",
+        "name": "옥수수",
+        "growth_seconds": 7200,
+        "drop_min": 1,
+        "drop_max": 3
+      },
+      {
+        "id": "strawberry",
+        "kind": "custom",
+        "name": "딸기",
+        "growth_seconds": 5400,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "cabbage",
+        "kind": "custom",
+        "name": "양배추",
+        "growth_seconds": 9000,
+        "drop_min": 1,
+        "drop_max": 2
+      },
+      {
+        "id": "eggplant",
+        "kind": "custom",
+        "name": "가지",
+        "growth_seconds": 7200,
+        "drop_min": 1,
+        "drop_max": 3
+      },
+      {
+        "id": "rice",
+        "kind": "custom",
+        "name": "쌀",
+        "growth_seconds": 7200,
+        "drop_min": 2,
+        "drop_max": 4
+      },
+      {
+        "id": "blueberry",
+        "kind": "custom",
+        "name": "블루베리",
+        "growth_seconds": 7200,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "raspberry",
+        "kind": "custom",
+        "name": "라즈베리",
+        "growth_seconds": 7200,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "blackberry",
+        "kind": "custom",
+        "name": "블랙베리",
+        "growth_seconds": 8100,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "cranberry",
+        "kind": "custom",
+        "name": "크랜베리",
+        "growth_seconds": 6300,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "gooseberry",
+        "kind": "custom",
+        "name": "구스베리",
+        "growth_seconds": 9000,
+        "drop_min": 2,
+        "drop_max": 4
+      },
+      {
+        "id": "redcurrant",
+        "kind": "custom",
+        "name": "레드커런트",
+        "growth_seconds": 7800,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "blackcurrant",
+        "kind": "custom",
+        "name": "블랙커런트",
+        "growth_seconds": 8400,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "lingonberry",
+        "kind": "custom",
+        "name": "링곤베리",
+        "growth_seconds": 6600,
+        "drop_min": 3,
+        "drop_max": 5
+      },
+      {
+        "id": "goldenberry",
+        "kind": "custom",
+        "name": "골든베리",
+        "growth_seconds": 9000,
+        "drop_min": 2,
+        "drop_max": 4
+      },
+      {
+        "id": "kiwi",
+        "kind": "custom",
+        "name": "키위",
+        "growth_seconds": 10800,
+        "drop_min": 2,
+        "drop_max": 4
+      },
+      {
+        "id": "pineapple",
+        "kind": "custom",
+        "name": "파인애플",
+        "growth_seconds": 12600,
+        "drop_min": 1,
+        "drop_max": 2
+      },
+      {
+        "id": "passion_fruit",
+        "kind": "custom",
+        "name": "패션프루트",
+        "growth_seconds": 10800,
+        "drop_min": 2,
+        "drop_max": 4
+      }
+    ]
+  },
+  "editorial_decisions": [
+    "Only Korean public player documentation was changed. No live game mutations or new native-client playtests.",
+    "Original screenshots are historical native-client evidence; model and panel previews are explicitly captioned.",
+    "War participation guide omitted: current CampaignPresentationFactory duration formatting passes Locale.ROOT to String.formatted with a numeric placeholder. Existing synthetic HUD captures do not prove a working battle.",
+    "No fabricated public game hostname, item acquisition shop, moderation penalty schedule or role grant."
+  ]
+}

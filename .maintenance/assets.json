@@ -1,0 +1,558 @@
+{
+  "verified_on": "2026-09-22",
+  "assets": [
+    {
+      "asset": ".gitbook/assets/spawn-overview.png",
+      "source": "EartopiaHomepage/public/assets/spawn-overview.png",
+      "kind": "project-world-screenshot",
+      "sha256": "8f6cf64722cf4076eb4ac95fc4828177ba6928631691dfbd2ef8fa258ef1728c",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/tutorial-guide-preview.png",
+      "source": "EartopiaTutorial/docs/red-panda/preview.png",
+      "kind": "model-preview",
+      "sha256": "14d93d6955e587a75d42fa28f4cfa320624182cf05810625910475a7f477c9b1",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/town-menu.png",
+      "source": "EartopiaMainMenu/docs/validation/button-hover/towny-hover.png",
+      "kind": "native-test-client",
+      "sha256": "1a4c3708344503bb4499b7b40127835e07909ddc4853501bb2a92fafd9e1a109",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/milo-dialogue.png",
+      "source": "EartopiaNPC/docs/qa/milo-native-dialogue.png",
+      "kind": "native-test-client",
+      "sha256": "72d58a9ff823a6acbe9f23087c8df9e596050dbb88558b8bcf133d40c1c02312",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/skill-journal.png",
+      "source": "EartopiaSkills/docs/validation/native-garden.png",
+      "kind": "native-test-client",
+      "sha256": "31abee59d3acdaa8a204892fdc1051f0f6f6b4943016dfb8353f4dc76691f49a",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fishing-rods-preview.png",
+      "source": "EartopiaFishing/docs/previews/fishing-rods-3d.png",
+      "kind": "model-preview",
+      "sha256": "e8d877fecda21f223b610326b290cb9acc707dfd98b40c0139c336a914ecc044",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish-sale.png",
+      "source": "EartopiaFishing/docs/qa/dialog-sales/dialog-ko_KR.png",
+      "kind": "native-test-client",
+      "sha256": "333febcbd48fd25433ddc59263a197e59e7094d69b6e7d5ac7b418d535ae58d1",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish-sale-review.png",
+      "source": "EartopiaFishing/docs/qa/dialog-sales/dialog-review.png",
+      "kind": "native-test-client",
+      "sha256": "9f913648a103a9cafe33c48b6c094419592cad5fa90c0d677aa80e91b0a52f5b",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/crops-preview.png",
+      "source": "EartopiaFarming/docs/previews/crop-live.png",
+      "kind": "model-preview",
+      "sha256": "b756a6794eb325122286ac6befc2697f06909fe1a2486f20160e8aef610b3faf",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/capybara-swimming.png",
+      "source": "EartopiaWildlife/docs/evidence/world-capybara.png",
+      "kind": "native-test-client",
+      "sha256": "3a4828b2df3310bd725ad0db7cfdbec3f66044cd8a6b28b55a71754d8e2c78f2",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/wildlife-journal.png",
+      "source": "EartopiaWildlife/docs/evidence/30-project-journal.png",
+      "kind": "native-test-client",
+      "sha256": "e070df549d9026dbbc6a81ba5c15a78c0655fafe3d422ec0bdbcb6a73ab55512",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/camera-album.png",
+      "source": "EartopiaCamera/docs/validation/2026-09-10-album-rgb-native.png",
+      "kind": "native-client-english",
+      "sha256": "3fa688058febc119f92f68231083e29c65c0238c2bfd0aeaffc07dc77e47537e",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/wardrobe-preview.png",
+      "source": "EartopiaCosmetics/docs/previews/wardrobe-panel-welcome.png",
+      "kind": "panel-preview",
+      "sha256": "f1a88732185a6b93040651691d63a5e45ad6bcc583c79a016a7d70f8ab9a444a",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/instruments-preview.png",
+      "source": "EartopiaInstruments/docs/images/instrument-atelier.png",
+      "kind": "model-preview",
+      "sha256": "f771f89a95d3d04a67a884a95c69761d27eaa63bca6090fa35b8692d3b6b1f7f",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/driftwood.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/driftwood.png",
+      "kind": "game-item-texture",
+      "sha256": "f87a37c93aa2e9d4b63f4cd739f77e8cb010d56a58623de55e3ccdf7c7705990",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/mud_loach.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/mud_loach.png",
+      "kind": "game-item-texture",
+      "sha256": "b6b116d062323c4db642e00ee6a594bb0b36eb8eacdc3a81119e266018c815f7",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/minnow.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/minnow.png",
+      "kind": "game-item-texture",
+      "sha256": "4ceea213b062191b85e778973bc4014e456b8af383f00acd3a8c47c5494dc0ac",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/anchovy.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/anchovy.png",
+      "kind": "game-item-texture",
+      "sha256": "3f4133c059fa6740c3e40280b98302ffc7439a6e74b784ccd8f4e0b91e69e5db",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/sardine.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/sardine.png",
+      "kind": "game-item-texture",
+      "sha256": "751cc404214c1f843963251e6405d6f939a4abc0ea74d4bcadecbbc0c0713dcb",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/pond_smelt.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/pond_smelt.png",
+      "kind": "game-item-texture",
+      "sha256": "f4bcb9a0e9432dc9272637b38608d2ffade420aaa64c3e402dca35712f8cb31f",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/shiner.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/shiner.png",
+      "kind": "game-item-texture",
+      "sha256": "30f01b888084702021fd504d4f16712a2c77a64418966967dba116d7f8008b48",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/goby.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/goby.png",
+      "kind": "game-item-texture",
+      "sha256": "c59b0018be13b7a16f4c208aa9493bfb9886f27757a764169a36cee4b0b0bbba",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/bluegill.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/bluegill.png",
+      "kind": "game-item-texture",
+      "sha256": "3986bf5f16c00ab5542aee146ec4bc8dfeccf923f3bc3927bfed619df575ae83",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/tilapia.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/tilapia.png",
+      "kind": "game-item-texture",
+      "sha256": "cbdea57fbb5662009952518601fde23082a5a50a681fc70cb0c1d57ab3819f6e",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/pumpkinseed.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/pumpkinseed.png",
+      "kind": "game-item-texture",
+      "sha256": "9dc03af96b10267e8dec5afd0063d033c46c7b53d009c323617c4842bb5d60b9",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/white_perch.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/white_perch.png",
+      "kind": "game-item-texture",
+      "sha256": "5f1b7d7ec606c715cef7723be93c81b139f7642f897bf22308c78fdf53c991e7",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/yellow_perch.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/yellow_perch.png",
+      "kind": "game-item-texture",
+      "sha256": "e8ecdc4ac616ba0cfb27ccb944b8e7423339b434a17eabb8d04298d6da8f1dc9",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/roach.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/roach.png",
+      "kind": "game-item-texture",
+      "sha256": "c295debd8b5f55d9942f30b85ee25580f604c5ec5074668fc0668fbb6fe3ff11",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/dace.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/dace.png",
+      "kind": "game-item-texture",
+      "sha256": "b7df2c209e489c4b079c685b0f0d1f4b69afef8d24d9fee679105aaae1671733",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/herring.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/herring.png",
+      "kind": "game-item-texture",
+      "sha256": "986561123cdf008da9fb1b6437f1ff9ab64eb39d2da98268758f3139c5137080",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/carp.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/carp.png",
+      "kind": "game-item-texture",
+      "sha256": "af8b6b0c2303a6cf83c767de2bd8c6cf81f5562c5aa32d21251963cd15701e89",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/rainbow_trout.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/rainbow_trout.png",
+      "kind": "game-item-texture",
+      "sha256": "4ab162138b7bc118755d2fb9727e0634a02d2eed854bcd3bb3efc0450c39ed3a",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/brown_trout.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/brown_trout.png",
+      "kind": "game-item-texture",
+      "sha256": "66f98a009d3aa676d10758af87ca423e7ecf5a6574c51b84c210f77ab6d1d407",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/brook_trout.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/brook_trout.png",
+      "kind": "game-item-texture",
+      "sha256": "69f7fb5fe2fa8ffd4813b6b9bb05728ec5ed32a8a0927f1fe4f7558af3857260",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/largemouth_bass.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/largemouth_bass.png",
+      "kind": "game-item-texture",
+      "sha256": "0003ba10bac6e5e3a168ffd4d4e5680c772b4027bcd0acd5e05730471709c753",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/smallmouth_bass.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/smallmouth_bass.png",
+      "kind": "game-item-texture",
+      "sha256": "6104c7752145637c51d8e1b53278f19354ba587487e2d5cf827979e6336e90b4",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/channel_catfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/channel_catfish.png",
+      "kind": "game-item-texture",
+      "sha256": "c27fa274bb39be85f1920789c53fa5c72cb35d016d6d6b90bc63736ac70e75b7",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/walleye.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/walleye.png",
+      "kind": "game-item-texture",
+      "sha256": "360f8936c5d9ff87a4513f7cc120a57a141510d5980fdbd47630e7c259f16059",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/mackerel.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/mackerel.png",
+      "kind": "game-item-texture",
+      "sha256": "541bc0271eff1ff91df89bda14e7c0d82512a2e64cfe91a7accb145f6654dab1",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/cod.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/cod.png",
+      "kind": "game-item-texture",
+      "sha256": "d0a7c437902a85244185ea60e0be8fd3b99016815a69f0d64d870026ce8541d4",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/haddock.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/haddock.png",
+      "kind": "game-item-texture",
+      "sha256": "556c7149a54fd511e642f4c97a84e52c22ca21b8c52b0f0b69f0e62f97ffe996",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/flounder.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/flounder.png",
+      "kind": "game-item-texture",
+      "sha256": "876edf6c3e809c5da12c3ee17a47d39a1c7b448ada58311c92fe3cd6dfe84e43",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/black_crappie.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/black_crappie.png",
+      "kind": "game-item-texture",
+      "sha256": "e82af3f593e37d7e979ab635c8c2ba544d8a051b5ef03c5be323b854e30e4005",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/mullet.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/mullet.png",
+      "kind": "game-item-texture",
+      "sha256": "41c369aaa82e37b747b3f7e8b30ab899f933caff43b8c0143f1669cb11377eba",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/milkfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/milkfish.png",
+      "kind": "game-item-texture",
+      "sha256": "05825ace67c8e734c3da9d99bee2b5b0f0e360b4e2639e6290e089beef3944ed",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/sea_bream.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/sea_bream.png",
+      "kind": "game-item-texture",
+      "sha256": "01cab0dc823945493160d2c85f89eb9c66085a28dd0816ce807487bcf429de01",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/northern_pike.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/northern_pike.png",
+      "kind": "game-item-texture",
+      "sha256": "caba7d33a2fa669701d73ccdff55aea603f210b8c9c5e576dce2f58d39bbf531",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/european_eel.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/european_eel.png",
+      "kind": "game-item-texture",
+      "sha256": "26c2abceddf66113ef2113e8faa4b2b1e1b104e60a5f0e6928f3e15060cf4826",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/sockeye_salmon.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/sockeye_salmon.png",
+      "kind": "game-item-texture",
+      "sha256": "5c07f98244cd4c61995043de31781df14080adc0c5d78b6493962b8a89e6f604",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/coho_salmon.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/coho_salmon.png",
+      "kind": "game-item-texture",
+      "sha256": "dde7a1d2397e4ba2e12438bc5517f39ab083b307d1b208e86911f95e91375de6",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/halibut.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/halibut.png",
+      "kind": "game-item-texture",
+      "sha256": "e875ac314e74927f969ac6ad05dce11be1ab6e8b632dc365e6bbd612d369b7a1",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/red_snapper.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/red_snapper.png",
+      "kind": "game-item-texture",
+      "sha256": "6c904bc1295bb92136203678229542499cac83710147bd9d44b1411e6f125abb",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/yellowtail.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/yellowtail.png",
+      "kind": "game-item-texture",
+      "sha256": "cd7e26bb509fdc7d9f9f0a4162f7b7dcb5efcfb4a1ba2361314eab6eaa2db507",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/grouper.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/grouper.png",
+      "kind": "game-item-texture",
+      "sha256": "24c7d2a6bf12473870f3912f1d299b3b1b57fce8a0fd0e2da693e8825726ce0a",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/mahi_mahi.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/mahi_mahi.png",
+      "kind": "game-item-texture",
+      "sha256": "ba72f0d841f6ff84e81a254c20592063169a03d97f46c6893894714160e53f56",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/parrotfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/parrotfish.png",
+      "kind": "game-item-texture",
+      "sha256": "4980e8c80fa4313242ed8f1fd86b9d5426d366f5d675ca899b54539d4149dd69",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/clownfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/clownfish.png",
+      "kind": "game-item-texture",
+      "sha256": "3e63b09753ccbd0183a9e8d5f05489aaaf92ae53e460640537f595dbc586da34",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/pufferfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/pufferfish.png",
+      "kind": "game-item-texture",
+      "sha256": "e4130a62977c05f9f8f01a42a99e31e7f79115ebc1dde606c3e4b2ceabc3c60a",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/sturgeon.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/sturgeon.png",
+      "kind": "game-item-texture",
+      "sha256": "b6a266a0f946036237c8d387c198e0c4cf3e3b6430cfb9f1086508bec15ba3be",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/king_salmon.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/king_salmon.png",
+      "kind": "game-item-texture",
+      "sha256": "ad91669ff6acd00264241faef608140e2ac803df05f64df8b0df80a58733f8e5",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/barracuda.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/barracuda.png",
+      "kind": "game-item-texture",
+      "sha256": "f89192dab8f28e5e81397cc3d069d37411f4c6e1950fa687481d32148d0b2e29",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/giant_trevally.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/giant_trevally.png",
+      "kind": "game-item-texture",
+      "sha256": "babfe778f46cd21715bdc474f02247c2ad2c2db60a05ba58212924924a1c6530",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/lionfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/lionfish.png",
+      "kind": "game-item-texture",
+      "sha256": "d04eb9df5e21b8353dbd4be59b1b0820f48dea1ae04e804e734e638f2b9cf56d",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/monkfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/monkfish.png",
+      "kind": "game-item-texture",
+      "sha256": "170e855ff940f1a0bc88a0b90fb0118d63caea8be730cb7442fc840ab3b1cc25",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/arapaima.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/arapaima.png",
+      "kind": "game-item-texture",
+      "sha256": "f53be7363033c9b849e564005a1e4eea4d5920f9f3d6118d401f44025c1ae4bf",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/blue_marlin.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/blue_marlin.png",
+      "kind": "game-item-texture",
+      "sha256": "9846baa0a29afaf271004f249f92e0abd9b6fcb27f534aaa196576cb00304e2d",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/starlit_koi.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/starlit_koi.png",
+      "kind": "game-item-texture",
+      "sha256": "ffcd31a62b449c7c49180d524b54a533cd4284bbaa5c10d6c91fc85682299192",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/frilled_shark.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/frilled_shark.png",
+      "kind": "game-item-texture",
+      "sha256": "bafcce18e43794f1cbe719dab947cbc7a681f8b40f41b641d9f19023a1f98c7a",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/coelacanth.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/coelacanth.png",
+      "kind": "game-item-texture",
+      "sha256": "ddd4c694a90445d56fa2f0b565f1b4730cdf06548592539d8939de2027c72109",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/abyss_tuna.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/abyss_tuna.png",
+      "kind": "game-item-texture",
+      "sha256": "643c73b13c69f4d9516a3acd61e1d9abe62b78181a02be22ebe8bea7b72569a3",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/oarfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/oarfish.png",
+      "kind": "game-item-texture",
+      "sha256": "3c5ac883485aa3463de79caf8fb71e5b6328437ed77de1c158fa9955b893a7d3",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/ancient_scale.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/ancient_scale.png",
+      "kind": "game-item-texture",
+      "sha256": "24d15f494c7913ca1d2af18df2646232c16d838795308ec2c9ca7ef89ff2803f",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/fossil_gar.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/fossil_gar.png",
+      "kind": "game-item-texture",
+      "sha256": "f13162815925b9e578fa7197cd6595d884aa71c7f6ab93c275e21b70f0ae15ea",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/aurora_ray.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/aurora_ray.png",
+      "kind": "game-item-texture",
+      "sha256": "7b0e29fc6e16e6e807613bdb47f4321f821e769920dacb5c065da9d4d4d33a7f",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/glacier_manta.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/glacier_manta.png",
+      "kind": "game-item-texture",
+      "sha256": "e9046108b56e51671f8fcbecebc154ae107339b6f0664630f97cc36e656d912d",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/voidfin.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/voidfin.png",
+      "kind": "game-item-texture",
+      "sha256": "fd73c9a1c77732e781c1f37338d9fd4f9a3d4a739dfa9806286711806e95b48c",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/moonveil_angler.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/moonveil_angler.png",
+      "kind": "game-item-texture",
+      "sha256": "0230d7c93126e7e5bb36b1f11685f943c059fb4a742b762ac631bfa5f0f350c3",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/sunken_crownfish.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/sunken_crownfish.png",
+      "kind": "game-item-texture",
+      "sha256": "301c1d3092233aa93eeb804b7b88589370a463d879240979edb66f6f1bba386d",
+      "modified": false
+    },
+    {
+      "asset": ".gitbook/assets/fish/star_eater_leviathan.png",
+      "source": "EartopiaFishing/resource-pack/assets/eartopia/textures/item/fish/star_eater_leviathan.png",
+      "kind": "game-item-texture",
+      "sha256": "aa2803634b472643c630ef55e654d09cfd42c97823329710d9f80946fe7e4518",
+      "modified": false
+    }
+  ]
+}
